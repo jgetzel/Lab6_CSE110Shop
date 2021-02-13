@@ -55,12 +55,6 @@ function initialize(){
       product.shadowRoot.getElementById('button').textContent = "Add to Cart";
     }
 
-    /*
-    product.setAttribute('text', jsonData[i].title);
-    product.setAttribute('price', jsonData[i].price);
-    product.setAttribute('img', jsonData[i].image);
-    */
-
     container.appendChild(product);
   }
 }
